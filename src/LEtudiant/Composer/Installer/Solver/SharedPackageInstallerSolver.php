@@ -153,4 +153,20 @@ class SharedPackageInstallerSolver implements InstallerInterface
 
         return true;
     }
+    
+        
+    public function download(PackageInterface $package, PackageInterface $prevPackage = null)
+    {
+    
+    }
+
+    public function prepare(string $type, PackageInterface $package, PackageInterface $prevPackage = null)
+    {
+        
+    }
+    
+    public function cleanup(string $type, PackageInterface $package, PackageInterface $prevPackage = null)
+    {
+    
+    }
 }
