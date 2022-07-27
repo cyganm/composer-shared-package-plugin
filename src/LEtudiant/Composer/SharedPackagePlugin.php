@@ -55,21 +55,6 @@ class SharedPackagePlugin implements PluginInterface
     public function uninstall(Composer $composer, IOInterface $io) {
 
     }
-    
-    public function download(PackageInterface $package, PackageInterface $prevPackage = null)
-    {
-    
-    }
-
-    public function prepare(string $type, PackageInterface $package, PackageInterface $prevPackage = null)
-    {
-        
-    }
-    
-    public function cleanup(string $type, PackageInterface $package, PackageInterface $prevPackage = null)
-    {
-    
-    }
 
     /**
      * @param Composer $composer
